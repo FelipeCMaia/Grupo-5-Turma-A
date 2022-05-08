@@ -1,0 +1,85 @@
+{
+    "perguntas": [
+        {
+            "id": 1,
+            "pergunta": "Quais dos processadores a seguir processa uma maior quantidade de bits por ciclo?",
+            "alternativas": [
+                {
+                    "texto": "Processador X64",
+                    "letra": "A",
+                    "correta": true
+                },
+                {
+                    "texto": "Processador X32",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "Processador X84",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "Processador X16",
+                    "letra": "D",
+                    "correta": false
+                }                
+            ],
+            "faseId": 1
+        },
+        {
+            "id": 2,
+            "pergunta": "Selecione o HD que possua maior velocidade de leitura",
+            "alternativas": [
+                {
+                    "texto": "HD 133mb/s",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "HD 150mb/s",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "HD 600mb/s",
+                    "letra": "C",
+                    "correta": true
+                },
+                {
+                    "texto": "HD 300mb/s",
+                    "letra": "D",
+                    "correta": false
+                }                
+            ],
+            "faseId": 1
+        },
+        {
+            "id": 3,
+            "pergunta": "Selecione qual dos tipos de memoria a seguir é recomendado para a gravação dos dados usados durante a execução dos programas",
+            "alternativas": [
+                {
+                    "texto": "Memória Cache",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "Memória Terciaria",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "Memória Secundaria",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "Memória Principal",                    
+                    "letra": "D",
+                    "correta": true
+                }                
+            ],
+            "faseId": 1
+        }        
+    ]
+}
