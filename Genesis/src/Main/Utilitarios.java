@@ -26,7 +26,7 @@ public class Utilitarios {
 	
 	public static ArrayList<Pergunta> ObterPerguntas() throws IOException {
 
-		String json = LerArquivoJson("./src/config.json");
+		String json = LerArquivoJson("./src/Configs/perguntas.json");
 
 		ArrayList<Pergunta> perguntas = new Gson().fromJson(json, JogoConfiguracao.class).perguntas;
 		

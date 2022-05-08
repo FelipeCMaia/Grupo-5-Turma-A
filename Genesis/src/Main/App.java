@@ -1,11 +1,15 @@
 package Main;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class App {
+import Models.Pergunta;
+
+public class App {	
 
 	
-	public static void main (String[] args ) {
+	public static void main (String[] args ) throws IOException {		
 		
 		 Scanner entrada = new Scanner (System.in);
 	      
@@ -57,7 +61,7 @@ public class App {
 				   break;
 				   
 			   case "2":
-			    System.out.println("Jogando...");
+				   Jogar();
 				   break; 
 			    
 			   case "3":	    	      
@@ -83,18 +87,10 @@ public class App {
 		 		   
 			   }
 			  
-		   }  while (errado);
-		   
-		 
-	 		   
-	 		   
-		     
-	 		   
-		   
-		   
-		   
-
-}
+		   }  while (errado);	
+	}
 	
+	public static void Jogar() throws IOException {
+		
+	}	
 }
-	
