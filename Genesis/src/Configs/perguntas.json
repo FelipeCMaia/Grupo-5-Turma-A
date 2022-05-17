@@ -80,6 +80,200 @@
                 }                
             ],
             "faseId": 1
+        },
+        {
+            "id": 4,
+            "pergunta": "O que é uma válvula?",
+            "alternativas": [
+                {
+                    "texto": "é um tipo de mémoria",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "chave eletrônica, que pouca é utilizada ",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "chave eletrônica, mais lenta e com partes móveis",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "chave eletrônica, mais rápida e sem partes móveis",                    
+                    "letra": "D",
+                    "correta": true
+                }  
+            ],
+            "faseId": 1
+
+        },
+
+        {
+            "id": 5,
+            "pergunta": "O que são transistores ?",
+            "alternativas": [
+                {
+                    "texto": "todas as alternativas estão erradas",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "é um condutor que conduz a memoria a ser mais lenta ",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "componentes com o intuito de dar impulso a memoria",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "componentes semi condutores",                    
+                    "letra": "D",
+                    "correta": true
+                }  
+            ],
+            "faseId": 1  
+        },
+        {
+            "id": 6,
+            "pergunta": "Qual material é mais comum na construção de um transistores?",
+            "alternativas": [
+                {
+                    "texto": "todas as alternativas estão erradas",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "é um condutor que conduz a memoria a ser mais lenta ",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "componentes com o intuito de dar impulso a memoria",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "silício",                    
+                    "letra": "D",
+                    "correta": true
+                }  
+            ],
+            "faseId": 1  
+
+        },
+        {
+            "id": 7,
+            "pergunta": "Qual a função de um circuito integrado?",
+            "alternativas": [
+                {
+                    "texto": "as alternativas C e B estao certas",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "integrar erros e virus ",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "e compactar diversos componentes em um transitores só",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "e compactar diversos transistores em um componente só",                    
+                    "letra": "D",
+                    "correta": true
+                }  
+            ],
+            "faseId": 1
+
+        },
+        {
+            "id": 8,
+            "pergunta": "Qual a função de um barramento ?",
+            "alternativas": [
+                {
+                    "texto": "armazenar o resultado das operações",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "nenhumas das alternativas ",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "sao componentes que impedem que a memoria principal receba dados errados",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "vias que transporta sinais de controle, endereços e dados",                    
+                    "letra": "D",
+                    "correta": true
+                }  
+            ],
+            "faseId": 1
+
+        },
+        {
+            "id": 9,
+            "pergunta": "Qual é a estrutura de um computador?",
+            "alternativas": [
+                {
+                    "texto": "cpu, silicio, memória, entrada e saída",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "HD,Mouse,Bits,USB ",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "gabinete,teclado,memória,e USD",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "cpu, barramentos, memória, entrada e saída",                    
+                    "letra": "D",
+                    "correta": true
+                }  
+            ],
+            "faseId": 1
+        },
+        {
+            "id": 10,
+            "pergunta": "O que é o acumulador AC ?",
+            "alternativas": [
+                {
+                    "texto": "armazenar somente dados da memoria MAR",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "armazenar o resultado das estruturas do computados ",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "armarzena dados da memoria ",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "armazenar o resultado das operações",                    
+                    "letra": "D",
+                    "correta": true
+                }  
+            ],
+            "faseId": 1
         }        
     ]
 }
