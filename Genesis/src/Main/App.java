@@ -15,7 +15,7 @@ public class App {
 	      
 		   String menu;
 		  
-		   
+		   String nome;
 		  
 		   boolean errado = true;
 		   
@@ -61,11 +61,7 @@ public class App {
 				   break;
 				   
 			   case "2":
-<<<<<<< HEAD
 			          Jogar();
-=======
-				   Jogar();
->>>>>>> 94cb0afc51d74c291516bae656f080d7068c4d40
 				   break; 
 			    
 			   case "3":	    	      
@@ -91,30 +87,14 @@ public class App {
 		 		   
 			   }
 			  
-<<<<<<< HEAD
 		   }  while (errado);
 		   
-		 
-	 		   
-	 		   
-		     
-	 		   
-		   
-		   
-		   
+		
+		    
 
 }
 	public static void Jogar () {
 		 System.out.println("Jogando...");
 	}
 	
-}
-=======
-		   }  while (errado);	
-	}
->>>>>>> 94cb0afc51d74c291516bae656f080d7068c4d40
-	
-	public static void Jogar() throws IOException {
-		System.out.println("Oi");
-	}	
 }
