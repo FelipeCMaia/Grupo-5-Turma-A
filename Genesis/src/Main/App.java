@@ -57,7 +57,7 @@ public class App {
 				   break;
 				   
 			   case "2":
-			    System.out.println("Jogando...");
+			          Jogar();
 				   break; 
 			    
 			   case "3":	    	      
@@ -95,6 +95,9 @@ public class App {
 		   
 
 }
+	public static void Jogar () {
+		 System.out.println("Jogando...");
+	}
 	
 }
 	
