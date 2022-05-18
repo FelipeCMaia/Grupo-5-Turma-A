@@ -15,21 +15,21 @@ public class App {
 	      
 		   String menu;
 		  
-		   String nome;
+		   String nome, nrobo;
 		  
 		   boolean errado = true;
 		   
 		   do {  
 			   
-			   System.out.println ("    MENU ");
+			   System.out.println (" -- MENU -- ");
 		   //
-		   System.out.println ("<1> Instruï¿½oes");
+		   System.out.println ("<1> Instrucoes");
 		   //
-		   System.out.println ("<2> Jogar ");
+		   System.out.println ("<2> Jogar");
 		   //
-		   System.out.println ("<3> Crï¿½ditos ");
+		   System.out.println ("<3> Creditos");
 		   //
-		   System.out.println ("<4> Sair   ");
+		   System.out.println ("<4> Sair");
 		   
 		   
 		   
@@ -42,26 +42,28 @@ public class App {
 			  switch (menu) {
 			  
 			   case "1":
-			    System.out.println("mecanismo e introduï¿½ao do jogo, o jogo consiste em acerta perguntas, "
-			    		+ "de acordo com seus acertos voce ganha, voce equipa peï¿½as com niveis mais altos "
-			    		+ " e seu objetivo de salvar a vida da raï¿½a humana se aproxima"
-			    		+ "Perguntas para a montagem do robï¿½ (5 perguntas voltadas aos componentes do PC).\r\n"
-			    		+ "Cada pergunta respondida errada nesta fase, vocï¿½ perderï¿½ o mï¿½ximo de vidas disponï¿½veis. "
-			    		+ "Perguntas para enfrentar os inimigos (3 a 5 perguntas).\r\n"
-			    		+ "Sistema de vidas, quando errar perde de acordo com a dificuldade."
-			    		+  "Nï¿½vel de dificuldade;"
+			    System.out.println("Mecanismo e introducao do jogo: "
+			    		+ "O jogo consiste em acerta perguntas, com cada acerto voce ganha pecas do robo."
+			    		+ "Seu objetivo é salvar a humanidade do controle dos Robos e vencer a CPU mae."
+			    		+ "Serao 5 perguntas voltadas aos componentes do PC, para montagem do robo. \r\n"
+			    		+ "Cada pergunta respondida errada nesta fase, voce perdera o maximo de vida disponivel. "
+			    		+ "E tera perguntas para enfrentar os inimigos.\r\n"
+			    		+ "Cada resposta errada sera como um dano que o inimigo ira te dar."
+			    		
+			    		+ "Niveis de dificuldades;"
 
-                        + "- Fï¿½cil - Perguntas fï¿½ceis, perdendo 1 vida;"
+                        + "- Facil - Perguntas faceis, perdendo 1 vida;"
 
-                        + " - Mï¿½dio - Perguntas mï¿½dias, perdendo 1 vida;"
+                        + "- Medio - Perguntas medias, perdendo 1 vida;"
 
-                        + "- Difï¿½cil - Perguntas difï¿½ceis, perdendo 2 vidas.");
+                        + "- Dificil - Perguntas dificeis, perdendo 2 vidas.");
 			    
 			    System.out.println(" menos " + (2-contador) + " chance" + " restam " + 2 + " chances" );
 				   break;
 				   
 			   case "2":
 			          Jogar();
+			          nome = entrada.next();
 				   break; 
 			    
 			   case "3":	    	      
@@ -74,13 +76,13 @@ public class App {
 				   break;
 				   
 			   case "4":	    	      
-			    System.out.println("Saiu. ");
+			    System.out.println("Saiu.");
 			    errado = false;
 				   break; 
 				   
 			  
 			   default:    	     
-		 	    System.out.println("Resposta Invï¿½lida");
+		 	    System.out.println("Resposta Invalida");
 		 		   break;
 		 		   
 			     
@@ -95,6 +97,7 @@ public class App {
 }
 	public static void Jogar () {
 		 System.out.println("Jogando...");
+		 System.out.print("Digite seu nome:\n ");
 	}
 	
 }

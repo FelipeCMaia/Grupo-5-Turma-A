@@ -32,9 +32,9 @@
             "pergunta": "Selecione o HD que possua maior velocidade de leitura",
             "alternativas": [
                 {
-                    "texto": "HD 133mb/s",
+                    "texto": "HD 600mb/s",
                     "letra": "A",
-                    "correta": false
+                    "correta": true
                 },
                 {
                     "texto": "HD 150mb/s",
@@ -42,9 +42,9 @@
                     "correta": false
                 },
                 {
-                    "texto": "HD 600mb/s",
+                    "texto": "HD 133mb/s",
                     "letra": "C",
-                    "correta": true
+                    "correta": false
                 },
                 {
                     "texto": "HD 300mb/s",
@@ -56,54 +56,54 @@
         },
         {
             "id": 3,
-            "pergunta": "Selecione qual dos tipos de memoria a seguir é recomendado para a gravação dos dados usados durante a execução dos programas",
+            "pergunta": "Selecione qual dos tipos de memoria a seguir e recomendado para a gravacao dos dados usados durante a execusao dos programas",
             "alternativas": [
                 {
-                    "texto": "Memória Cache",
+                    "texto": "Memoria Cache",
                     "letra": "A",
                     "correta": false
                 },
                 {
-                    "texto": "Memória Terciaria",
+                    "texto": "Memoria Terciaria",
                     "letra": "B",
                     "correta": false
                 },
                 {
-                    "texto": "Memória Secundaria",
+                    "texto": "Memoria Princial",
                     "letra": "C",
-                    "correta": false
+                    "correta": true
                 },
                 {
-                    "texto": "Memória Principal",                    
+                    "texto": "Memoria Secundaria",                    
                     "letra": "D",
-                    "correta": true
+                    "correta": false
                 }                
             ],
             "faseId": 1
         },
         {
             "id": 4,
-            "pergunta": "O que é uma válvula?",
+            "pergunta": "O que e uma valvula?",
             "alternativas": [
                 {
-                    "texto": "é um tipo de mémoria",
+                    "texto": "E um tipo de memoria",
                     "letra": "A",
                     "correta": false
                 },
                 {
-                    "texto": "chave eletrônica, que pouca é utilizada ",
+                    "texto": "chave eletronica, mais rapida e sem partes moveis",
                     "letra": "B",
-                    "correta": false
+                    "correta": true
                 },
                 {
-                    "texto": "chave eletrônica, mais lenta e com partes móveis",
+                    "texto": "chave eletronica, mais lenta e com partes moveis",
                     "letra": "C",
                     "correta": false
                 },
                 {
-                    "texto": "chave eletrônica, mais rápida e sem partes móveis",                    
+                    "texto": "chave eletronica, que sao pouca utilizada ",                    
                     "letra": "D",
-                    "correta": true
+                    "correta": false
                 }  
             ],
             "faseId": 1
@@ -112,25 +112,25 @@
 
         {
             "id": 5,
-            "pergunta": "O que são transistores ?",
+            "pergunta": "O que sao transistores ?",
             "alternativas": [
                 {
-                    "texto": "todas as alternativas estão erradas",
+                    "texto": "todas as alternativas estao erradas",
                     "letra": "A",
                     "correta": false
                 },
                 {
-                    "texto": "é um condutor que conduz a memoria a ser mais lenta ",
+                    "texto": "E um condutor que conduz a memoria a ser mais lenta ",
                     "letra": "B",
                     "correta": false
                 },
                 {
-                    "texto": "componentes com o intuito de dar impulso a memoria",
+                    "texto": "Componentes com o intuito de dar impulso a memoria",
                     "letra": "C",
                     "correta": false
                 },
                 {
-                    "texto": "componentes semi condutores",                    
+                    "texto": "Componentes semi condutores",                    
                     "letra": "D",
                     "correta": true
                 }  
@@ -139,27 +139,27 @@
         },
         {
             "id": 6,
-            "pergunta": "Qual material é mais comum na construção de um transistores?",
+            "pergunta": "Qual material e mais comum na construcao de um transistores?",
             "alternativas": [
                 {
-                    "texto": "todas as alternativas estão erradas",
+                    "texto": "Todas as alternativas estao erradas",
                     "letra": "A",
                     "correta": false
                 },
                 {
-                    "texto": "é um condutor que conduz a memoria a ser mais lenta ",
+                    "texto": "Silicio",
                     "letra": "B",
-                    "correta": false
+                    "correta": true
                 },
                 {
-                    "texto": "componentes com o intuito de dar impulso a memoria",
+                    "texto": "Componentes com o intuito de dar impulso a memoria",
                     "letra": "C",
                     "correta": false
                 },
                 {
-                    "texto": "silício",                    
+                    "texto": "E um condutor que conduz a memoria a ser mais lenta",                    
                     "letra": "D",
-                    "correta": true
+                    "correta": false
                 }  
             ],
             "faseId": 1  
@@ -167,27 +167,27 @@
         },
         {
             "id": 7,
-            "pergunta": "Qual a função de um circuito integrado?",
+            "pergunta": "Qual a funcao de um circuito integrado?",
             "alternativas": [
                 {
-                    "texto": "as alternativas C e B estao certas",
+                    "texto": "E compactar diversos transistores em um componente sao",
                     "letra": "A",
-                    "correta": false
+                    "correta": true
                 },
                 {
-                    "texto": "integrar erros e virus ",
+                    "texto": "Integrar erros e virus ",
                     "letra": "B",
                     "correta": false
                 },
                 {
-                    "texto": "e compactar diversos componentes em um transitores só",
+                    "texto": "E compactar diversos componentes em um transitores sao",
                     "letra": "C",
                     "correta": false
                 },
                 {
-                    "texto": "e compactar diversos transistores em um componente só",                    
+                    "texto": "As alternativas C e B estao certas",                    
                     "letra": "D",
-                    "correta": true
+                    "correta": false
                 }  
             ],
             "faseId": 1
@@ -195,27 +195,27 @@
         },
         {
             "id": 8,
-            "pergunta": "Qual a função de um barramento ?",
+            "pergunta": "Qual a funcao de um barramento ?",
             "alternativas": [
                 {
-                    "texto": "armazenar o resultado das operações",
+                    "texto": "Armazenar o resultado das operacoes",
                     "letra": "A",
                     "correta": false
                 },
                 {
-                    "texto": "nenhumas das alternativas ",
+                    "texto": "Nenhumas das alternativas ",
                     "letra": "B",
                     "correta": false
                 },
                 {
-                    "texto": "sao componentes que impedem que a memoria principal receba dados errados",
+                    "texto": "Vias que transporta sinais de controle, enderecos e dados",
                     "letra": "C",
-                    "correta": false
+                    "correta": true
                 },
                 {
-                    "texto": "vias que transporta sinais de controle, endereços e dados",                    
+                    "texto": "Sao componentes que impedem que a memoria principal receba dados errados",                    
                     "letra": "D",
-                    "correta": true
+                    "correta": false
                 }  
             ],
             "faseId": 1
@@ -223,10 +223,10 @@
         },
         {
             "id": 9,
-            "pergunta": "Qual é a estrutura de um computador?",
+            "pergunta": "Qual e a estrutura de um computador?",
             "alternativas": [
                 {
-                    "texto": "cpu, silicio, memória, entrada e saída",
+                    "texto": "cpu, silicio, memoria, entrada e saida",
                     "letra": "A",
                     "correta": false
                 },
@@ -236,12 +236,12 @@
                     "correta": false
                 },
                 {
-                    "texto": "gabinete,teclado,memória,e USD",
+                    "texto": "gabinete,teclado,memoria,e USD",
                     "letra": "C",
                     "correta": false
                 },
                 {
-                    "texto": "cpu, barramentos, memória, entrada e saída",                    
+                    "texto": "cpu, barramentos, memoria, entrada e saida",                    
                     "letra": "D",
                     "correta": true
                 }  
@@ -250,12 +250,12 @@
         },
         {
             "id": 10,
-            "pergunta": "O que é o acumulador AC ?",
+            "pergunta": "O que sao o acumulador AC ?",
             "alternativas": [
                 {
-                    "texto": "armazenar somente dados da memoria MAR",
+                    "texto": "armazenar o resultado das operacoes",
                     "letra": "A",
-                    "correta": false
+                    "correta": true
                 },
                 {
                     "texto": "armazenar o resultado das estruturas do computados ",
@@ -268,12 +268,201 @@
                     "correta": false
                 },
                 {
-                    "texto": "armazenar o resultado das operações",                    
+                    "texto": "armazenar somente dados da memoria MAR",                    
                     "letra": "D",
-                    "correta": true
+                    "correta": false
                 }  
             ],
             "faseId": 1
-        }        
+        },
+        {
+            "id": 1,
+            "pergunta": "Selecione a alternativa com os m�todos de acessos corretos",
+            "alternativas": [
+                {
+                    "texto": "Barramento, MAR, associativo, aleatorio",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "Sequencial, direto, associativo, aleatorio",
+                    "letra": "B",
+                    "correta": true
+                },
+                {
+                    "texto": "Sequencial, ROM, FIFO , aleatorio",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "Direto, sequencial, aleatorio, mapeamento ",
+                    "letra": "D",
+                    "correta": false
+                }                
+            ],
+            "faseId": 2
+        },
+         {
+            "id": 2,
+            "pergunta": "O que e localidade temporal? ",
+            "alternativas": [
+                {
+                    "texto": "Posicao da CPU, onde guarda as informacoes.",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "Sao enderecos de instrucoes acessadas anteriormente",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "Posicoes da memoria que uma vez acessada tendem a ser acessadas novamente.",
+                    "letra": "C",
+                    "correta": true
+                },
+                {
+                    "texto": "Dados com instrucoes de enderecos a serem acessados no futuro",
+                    "letra": "D",
+                    "correta": false
+                }                
+            ],
+            "faseId": 2
+        },
+        {
+            "id": 3,
+            "pergunta": "Selecione a alternativa que indica os algoritmos de substituicao: ",
+            "alternativas": [
+                {
+                    "texto": "FIFO, LFU, CDROM",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "SRAM, LFU, RAM",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "ROM, RAM, DRAM",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "LFU, LRU, FIFO",
+                    "letra": "D",
+                    "correta": true
+                }                
+            ],
+            "faseId": 2
+        },
+        {
+            "id": 4,
+            "pergunta": "Comparando-se a memoria din�mica (DRAM) com a memoria est�tica (SRAM), marque a alternativa verdadeira.",
+            "alternativas": [
+                {
+                    "texto": "A SRAM e usada na memoria ROM, por isso tem menor capacidade que a DRAM",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "A SRAM e bem mais rapida que a DRAM, por isso e usada internamente no cache",
+                    "letra": "B",
+                    "correta": true
+                },
+                {
+                    "texto": "A SRAM e digital, por isso possui uma constru��o mais complexa",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "Ambas tem a mesma velocidade. A vantagem da SRAM esta no menor consumo de energia",
+                    "letra": "D",
+                    "correta": false
+                }                
+            ],
+            "faseId": 2
+        },  
+        {
+            "id": 5,
+            "pergunta": "(1)Valor que indica quantos dados sao obtidos e usados da memoria em funcao do tempo. (2)juncao do tempo de acesso com o tempo de recuperacao da memoria:",
+            "alternativas": [
+                {
+                    "texto": "(1) taxa de transferencia. (2) ciclo de memoria",
+                    "letra": "A",
+                    "correta": true
+                },
+                {
+                    "texto": "(1) tempo de recuperacao. (2) tamanho de palavra",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "(1) ciclo de memoria. (2) tempo de ciclo de memoria",
+                    "letra": "C",
+                    "correta": false
+                },
+                {
+                    "texto": "(1) tempo de recuperacao. (2) ciclo de memoria",
+                    "letra": "D",
+                    "correta": false
+                }                
+            ],
+            "faseId": 2
+        }, 
+         {
+            "id": 6,
+            "pergunta": "Na estrutura da CPU, o que faz o Registrador Temporario.",
+            "alternativas": [
+                {
+                    "texto": "Armazena uma memoria aleatoria",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": " Armazena o resultado das operacoes",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "Armazena um dos operandos",
+                    "letra": "C",
+                    "correta": true
+                },
+                {
+                    "texto": "Armazena o endereco da proxima instrucao",
+                    "letra": "D",
+                    "correta": false
+                }                
+            ],
+            "faseId": 2
+        },
+          {
+            "id": 7,
+            "pergunta": "Marque a alternativa ERRADA sobre a ULA (Unidade Logica e Artmetica).",
+            "alternativas": [
+                {
+                    "texto": "Responsavel pela execucao de somas, subtracoes e funcoes logicas.",
+                    "letra": "A",
+                    "correta": false
+                },
+                {
+                    "texto": "Usa registradores Temporarios para se comunicar com a CPU.",
+                    "letra": "B",
+                    "correta": false
+                },
+                {
+                    "texto": "Responsavel por gerar todos os sinais que controlam as operacoes no exterior da CPU.",
+                    "letra": "C",
+                    "correta": true
+                },
+                {
+                    "texto": "Todas estao corretas.",
+                    "letra": "D",
+                    "correta": false
+                }                
+            ],
+            "faseId": 2
+        },           
     ]
 }
