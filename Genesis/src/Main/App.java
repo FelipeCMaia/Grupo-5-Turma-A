@@ -17,11 +17,12 @@ public class App {
 		String nome, nrobo;
 
 		boolean errado = true;
-
+		
+		// Do para repetir o jogo ate a opcao de sair
 		do {
 
 			System.out.println(" -- MENU -- ");
-			//
+			// 
 			System.out.println("<1> Instrucoes");
 			//
 			System.out.println("<2> Jogar");
@@ -32,6 +33,7 @@ public class App {
 
 			menu = entrada.next();			
 
+			// Switch que verifica qual a opcao selecionada pelo usuario
 			switch (menu) {
 
 				case "1":
@@ -80,9 +82,11 @@ public class App {
 
 	}
 
+	// Funcao para executar o jogo
 	public static void Jogar() throws Exception {
 		Utilitarios.LimparTela();
 
+		// Declaracao de variaveis
 		int vidas = 5;
 		Scanner reader = new Scanner(System.in);
 		String resposta = null;
@@ -245,7 +249,8 @@ public class App {
 		return vidas > 0;
 	}
 
-	public static void ExibirTextoFases(int fase, boolean correto) throws Exception {		
+	public static void ExibirTextoFases(int fase, boolean correto) throws Exception {
+		//Switch que determina qual a mensagem que será exibida de acorod com a fase
 		switch (fase) {
 			case 1 :
 			if(correto) {
