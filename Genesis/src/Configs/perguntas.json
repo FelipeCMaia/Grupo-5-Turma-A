@@ -170,7 +170,7 @@
             "pergunta": "Qual a funcao de um circuito integrado?",
             "alternativas": [
                 {
-                    "texto": "E compactar diversos transistores em um componente sao",
+                    "texto": "E compactar diversos transistores em um componente",
                     "letra": "A",
                     "correta": true
                 },
@@ -180,7 +180,7 @@
                     "correta": false
                 },
                 {
-                    "texto": "E compactar diversos componentes em um transitores sao",
+                    "texto": "E compactar diversos componentes em um transitores",
                     "letra": "C",
                     "correta": false
                 },
@@ -277,7 +277,7 @@
         },
         {
             "id": 1,
-            "pergunta": "Selecione a alternativa com os métodos de acessos corretos",
+            "pergunta": "Selecione a alternativa com os metodos de acessos corretos",
             "alternativas": [
                 {
                     "texto": "Barramento, MAR, associativo, aleatorio",
@@ -358,7 +358,7 @@
         },
         {
             "id": 4,
-            "pergunta": "Comparando-se a memoria dinâmica (DRAM) com a memoria estática (SRAM), marque a alternativa verdadeira.",
+            "pergunta": "Comparando-se a memoria dinamica (DRAM) com a memoria estï¿½tica (SRAM), marque a alternativa verdadeira.",
             "alternativas": [
                 {
                     "texto": "A SRAM e usada na memoria ROM, por isso tem menor capacidade que a DRAM",
@@ -371,7 +371,7 @@
                     "correta": true
                 },
                 {
-                    "texto": "A SRAM e digital, por isso possui uma construção mais complexa",
+                    "texto": "A SRAM e digital, por isso possui uma construï¿½ï¿½o mais complexa",
                     "letra": "C",
                     "correta": false
                 },
@@ -463,6 +463,6 @@
                 }                
             ],
             "faseId": 2
-        },           
+        }
     ]
 }
