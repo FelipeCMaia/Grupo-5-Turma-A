@@ -62,7 +62,7 @@ public class App {
 							+ "Felipe Maia \n"
 							+ "Felipe Santos \n"
 							+ "Professor Eduardo Takeo \n"
-							+ "Professor Andersson");
+							+ "Professor Andersson \n");
 					break;
 
 				case "4":
@@ -97,7 +97,7 @@ public class App {
 				+ "maquinas que utilizam os seres humanos que restaram como fonte de energia e os rejeitados \n"
 				+ "eram tratados como gados, tudo ocorreu depois de um grande acontecimento no ano de 2085 um forte \n"
 				+ "impacto foi sentindo ao sul do Brasil, algo vindo do espaço em uma caixa misteriosa selada com \n"
-				+ "símbolos estranhos e uma forte luz que se emitia da mesma. \n");
+				+ "símbolos estranhos e uma forte luz que se emitia da mesma. \n \n");
 
 		Utilitarios.LimparEAguardar();
 
@@ -106,13 +106,13 @@ public class App {
 				+ "foi a partir desse momento o caos começou na Terra. Micro maquinas se juntaram formando uma  criatura \n"
 				+ "estranha que pulou em seu rosto e apoderou-se do seu cérebro entrando em suas vias respiratórias, disso \n"
 				+ "surgiu o primeiro ser humano controlado pelas nano cpu-s eles utilizavam os corpos controlados para \n"
-				+ "sua própria reprodução, diante disso iniciou-se a dominação mundial. \n");
+				+ "sua própria reprodução, diante disso iniciou-se a dominação mundial. \n \n");
 
 		Utilitarios.LimparEAguardar();
 
 		Utilitarios.ExibirTexto("Apesar disso haviam seres humanos que eram rejeitados e não podiam ser controlados \n"
-				+ "por conta de seu tipo sanguíneo -O (Por conta do seu tipo raro de sangue e por sua ausência de antígenos),\n "
-				+ "esses ser humanos eram usados como gados para reprodução da própria população, taxados como Divergentes. \n");
+				+ "por conta de seu tipo sanguíneo -O (Por conta do seu tipo raro de sangue e por sua ausência de antígenos), \n"
+				+ "esses ser humanos eram usados como gados para reprodução da própria população, taxados como Divergentes. \n \n");
 
 		Utilitarios.LimparEAguardar();
 
@@ -120,21 +120,21 @@ public class App {
 				+ "depois de uma grande fuga de uma das fazendas, por acidente você encontra um dos GENESIS (são os Robôs) \n"
 				+ "defeituoso que foi descartado, com medo você acerta o robô com um pedaço de madeira e o derruba, achando \n"
 				+ "que o matou você começa a vasculhar o mesmo com a esperança de descobrir uma vulnerabilidade no Robô, você \n"
-				+ "utiliza seus conhecimentos em Conceitos da Computação e começa estudar as peças do Robô. \n");
+				+ "utiliza seus conhecimentos em Conceitos da Computação e começa estudar as peças do Robô. \n \n");
 
 		Utilitarios.LimparEAguardar();
 
 		Utilitarios.ExibirTexto("Descobrindo uma falha no sistema desse Robô, você se aproveita disso \n"
 				+ "para reconstruir seu próprio Robô utilizando as peças do mesmo e as aprimorando. Com a última \n"
 				+ "esperança da humanidade construída, você parte em busca de libertar todos os humanos controlados \n"
-				+ "pelas nano cpu-s. Porém algo inacreditável te aguarda...");
+				+ "pelas nano cpu-s. Porém algo inacreditável te aguarda... \n \n");
 
 		Utilitarios.LimparEAguardar();
 
 		Utilitarios.ExibirTexto("Com a descoberta da falha dos Robôs, você se aproveita disso e parte em \n"
 				+ "busca de mais peças tentando localizar mais robôs defeituosos descartados. Nesse caminho você \n"
 				+ "irá enfrentar desafios e irá tentar supera-los, e cada falha será problemático para seu robô, \n"
-				+ "mas não desista todos nós precisaremos de você.");
+				+ "mas não desista todos nós precisaremos de você.2");
 
 		Utilitarios.LimparEAguardar();
 
@@ -143,7 +143,7 @@ public class App {
 		System.out.println("\n \n");
 
 		// For que realiza a primeira fase de perguntas
-		for (int i = 0; i < 2; i++) {			
+		for (int i = 0; i < 5; i++) {			
 			pergunta = perguntasFase1.get(i);
 
 			System.out.println((i + 1) + " - " + pergunta.pergunta);
@@ -172,9 +172,9 @@ public class App {
 				if(!PossuiVidas(vidas)) {
 					Utilitarios.LimparTela();
 	
-					Utilitarios.ExibirTexto("Não, seu Robô foi destruído, corra, fuja, se esconda. Você é nossa única esperança tente novamente, mas não desista. \n");					
+					Utilitarios.ExibirTexto("Não, seu Robô foi destruído, corra, fuja, se esconda. Você é nossa única esperança tente novamente, mas não desista. \n \n");					
 
-					System.in.read();
+					// System.in.read();
 	
 					return;
 				}
@@ -191,7 +191,10 @@ public class App {
 	
 		Utilitarios.LimparEAguardar();
 
-		System.out.println("Fase 2 \n \n");
+		System.out.println(" \n Fase 2 \n \n");
+
+		Utilitarios.ExibirTexto("Agora com seu sua máquina pronta você parte em direção ao centro de controle do inimigo \n " 
+		+ "onde suas forças estão concentradas e onde você deverá enfrentrar seu primeiro inimigo na busca de seu objetivo");
 		
 		// For que realiza a segunda fase de perguntas
 		for (int i=1; i <= 3; i++) {			
